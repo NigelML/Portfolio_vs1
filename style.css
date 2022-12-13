@@ -1,0 +1,18 @@
+/*Path
+
+*/
+/*
+Fonts Paths
+*/
+@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Press+Start+2P&display=swap");
+body {
+  /*
+  Apenas para testes
+  */
+  background-image: url(assets/img/body_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
