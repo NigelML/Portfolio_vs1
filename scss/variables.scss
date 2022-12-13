@@ -1,0 +1,23 @@
+/*Path
+
+*/
+$assetPath : "../assets/";
+$asset_img : "#{$assetPath}img/";
+
+$body-background : url(#{$asset_img}body_background.png);
+$avatar-img : url(#{$asset_img}avatar-perfil.jpj);
+
+
+/*
+Fonts Paths
+*/
+@import url('https://fonts.googleapis.com/css2?family=Freehand&family=Press+Start+2P&display=swap');
+
+$font-default : 'sans-serif', cursive;
+$press-start  : 'Press Start 2P', $font-default;
+$free-hand    : 'Freehand', $font-default;
+
+
+
+
+
