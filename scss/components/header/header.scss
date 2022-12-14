@@ -1,0 +1,15 @@
+@import "../../variables.scss";
+@import "../_tools/glassmorphism.scss";
+@import "../_tools/tablet.scss";
+
+header{
+    @extend .tablet;    
+    max-height: min-content;
+    margin-bottom: 2vh;  
+
+    .header-container{
+        @extend .tablet-container;
+    }
+}
+
+

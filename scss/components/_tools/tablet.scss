@@ -1,0 +1,17 @@
+.tablet{
+    @extend .glassmorphism;
+    filter: brightness(1.2);    
+    padding: 1vw 1vw;
+    border-radius: 10px; 
+}
+
+.tablet-container{
+    @extend .tablet;
+    padding: 1px 10px;
+    border: 2px solid rgba(2, 2, 2, 0.432);   
+}
+
+.gameboy-theme{
+    @extend .tablet-container;
+    background-color: #fffafac2;
+}
