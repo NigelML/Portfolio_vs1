@@ -100,14 +100,39 @@ header {
   max-height: min-content;
   margin-bottom: 2vh;
 }
+header .header-container {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+}
+header .img-perfil {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0px 20px 0px 0px;
+  border-radius: 5px;
+}
+header section.header-title h1 {
+  align-items: top;
+  font-family: "Press Start 2P", "sans-serif", cursive;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+header section.header-title h3 {
+  font-family: "Freehand", "sans-serif", cursive;
+  letter-spacing: 0.1em;
+  font-size: 40px;
+}
+
 body {
   /*
   Apenas para testes
   */
+  height: 100vh;
   background-image: url(assets/img/body_background.png);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  padding: 5vh 10vw;
 }
 
 /*# sourceMappingURL=style.css.map */

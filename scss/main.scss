@@ -9,8 +9,10 @@ body{
     /*
     Apenas para testes
     */
+    height: 100vh;
     background-image: $body-background;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: white;  
+    padding: 5vh 10vw;  
 }
