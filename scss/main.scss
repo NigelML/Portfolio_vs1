@@ -1,5 +1,9 @@
 @charset "UTF-8";
+
+@import "components/_tools/reset.scss";
 @import "variables.scss";
+@import "components/header/header.scss";
+
 
 body{
     /*
